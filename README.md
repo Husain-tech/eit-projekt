@@ -10,8 +10,6 @@ This is a prototype for user tests. All profiles are made up, there is no
 backend and no real login, and nothing leaves the browser. The interface is in
 Danish by default, with a full English version.
 
-"Under samme tag" is a working name. Change it in `src/i18n/da.ts` and
-`src/i18n/en.ts` (`layout.brand`) and in `index.html`.
 
 ## Run it
 
