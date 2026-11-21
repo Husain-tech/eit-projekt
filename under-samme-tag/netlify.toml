@@ -1,0 +1,8 @@
+# Netlify: free static hosting. See "Put it online for testers" in README.md.
+# The site uses hash addresses (#/forslag), so no redirect rules are needed.
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
